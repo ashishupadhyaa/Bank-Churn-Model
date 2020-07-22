@@ -46,7 +46,13 @@ The ***Classification_report*** of the model was:
  - I used **GridSearchCV** to decide best ***estimator*** for *RandomForestClassifier* model and the <ins>best_estimator</ins> was:
 
 ```python
-
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=8, max_features=7, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=6,
+            min_weight_fraction_leaf=0.0, n_estimators=50, n_jobs=None,
+            oob_score=False, random_state=None, verbose=0,
+            warm_start=False)
 ```
 
 The ***Classification_report*** of the model was:
